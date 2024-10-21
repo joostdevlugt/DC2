@@ -8,7 +8,7 @@ param adminUsername string = 'joostadmin'
 
 @description('Admin password for the VM')
 @secure()
-param adminPassword string = '!Khq4kep8!fgds47'
+param adminPassword string = 
 
 @description('Location for the resources')
 param location string = resourceGroup().location
